@@ -16,6 +16,11 @@ function NavBar() {
                 <div className='menu-icon' onClick={handleClick}>
                     <i className={click ? 'fas fa-times' : 'fas fa-bars'}/>
                 </div>
+                <div>
+                    <Button to='/' buttonStyle='btn--filled' buttonSize='btn--large' onClick={() => console.log('Clicked!')}>
+                        test button for testing purposes
+                    </Button>
+                </div>
             </div>
          </nav>
         
