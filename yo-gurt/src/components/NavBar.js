@@ -1,4 +1,4 @@
-import {useState, useEffect} from 'react';
+import {useState, useEffect, useRef} from 'react';
 import {Link} from 'react-router-dom';
 import './NavBar.css';
 import { Button } from './Button';
@@ -8,6 +8,22 @@ function NavBar() {
     const[button, setButton] = useState(true);
     const handleClick = () => setClick(!click);
     const closeMobileMenu = () => setClick(false);
+    const videoRef = useRef(null);
+
+    const handleHoverStart = () => {
+        if (videoRef.current) {
+            videoRef.current.classList.add('show');
+            videoRef.current.play()
+        }
+    };
+    
+    const handleHoverEnd = () => {
+        if (videoRef.current) {
+            videoRef.current.classList.remove('show');
+            videoRef.current.pause();
+            videoRef.current.currentTime = 0;
+        }
+    };
 
     const showButton = () => {
         if(window.innerWidth <= 960) {
@@ -25,8 +41,29 @@ function NavBar() {
     <>
      <nav className = "navbar">
         <div className = "navbar-container">
-            <Link to='/' className="navbar-logo" onClick={closeMobileMenu}>
-                AHSMLC <video src='/videos/trimmed.mov' className="navbar-icon" autoPlay loop muted playsInline/>
+            <Link 
+            to='/' 
+            className="navbar-logo" 
+            onClick={closeMobileMenu}
+            onMouseEnter={handleHoverStart}
+            onMouseLeave={handleHoverEnd}>
+                AHSMLC 
+                <div className="logo-media-wrapper">
+                    <img 
+                    src='/images/first-frame.png' 
+                    className="navbar-poster"
+                    alt="Logo Poster"
+                    />
+                    <video 
+                    src='/videos/trimmed.mov' 
+                    className="navbar-video"
+                    poster="/images/first-frame.png"
+                    loop 
+                    muted
+                    preload="auto"
+                    ref={videoRef}
+                    />
+                </div>
             </Link>
             <div className='menu-icon' onClick={handleClick}>
                 <i className={click ? 'fas fa-times' : 'fas fa-bars'}/>
