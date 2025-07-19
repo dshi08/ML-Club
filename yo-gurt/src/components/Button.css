@@ -1,5 +1,5 @@
 :root {
-    --primary: lightcoral;
+    --primary: white;
 }
 
 .btn {
@@ -18,7 +18,7 @@
 
 .btn--empty {
     background-color: transparent;
-    color: black;
+    color: whitesmoke;
     border: 2px solid var(--primary);
     transition: all 0.3 ease-out;
 }
@@ -30,12 +30,12 @@
 
 .btn--large {
     padding: 12px 26px;
-    font-size: px;
+    font-size: 15px;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 .btn--medium:hover, .btn--large:hover {
-    background: gray;
+    background: white;
     color: black;
     transition: 250ms;
 }
