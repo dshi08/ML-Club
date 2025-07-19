@@ -14,7 +14,7 @@ function Hero() {
             <Button className='btns' 
             buttonStyle='btn--filled'
             buttonSize='btn--large'
-            to='/join'> Join Here→ </Button>
+            to='https://docs.google.com/forms/d/e/1FAIpQLSeXoTRbhvNvsAfxWUihoT3GBH-37amXsnO7RAGjDSaVUAZFLw/viewform?usp=header'> Join Here→ </Button>
         </div>
     </div>
   )

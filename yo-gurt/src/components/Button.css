@@ -4,7 +4,7 @@
 
 .btn {
     padding: 8px 20px;
-    border-radius: 2px;
+    border-radius: 8px;
     outline: none;
     border: none;
     cursor: pointer;
@@ -37,5 +37,5 @@
 .btn--medium:hover, .btn--large:hover {
     background: whitesmoke;
     color: black;
-    transition: 250ms;
+    transition: 350ms;
 }

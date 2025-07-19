@@ -1,3 +1,12 @@
+@keyframes fadeIn {
+    from {
+      opacity: 0.7;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  
 .hero-container {
     background: url("/public/images/ai-gen-hero.webp" ) center center/cover
     no-repeat;
@@ -11,6 +20,9 @@
     justify-content: center;
     align-items: center;
     text-align: center;
+    opacity: 0;
+    background-color: black;
+    animation: fadeIn 0.3s ease-in forwards;
 }
 
 .hero-content > h1 {
