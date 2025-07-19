@@ -20,13 +20,13 @@ function NavBar() {
     useEffect(() => {
         showButton()
     }, []);
-
+    window.addEventListener('resize', showButton);
   return (
     <>
      <nav className = "navbar">
         <div className = "navbar-container">
             <Link to='/' className="navbar-logo" onClick={closeMobileMenu}>
-                AHS ML <img src='/test.gif' alt='Logo' className="navbar-icon"/>
+                AHS ML <video src='/videos/trimmed.mov' className="navbar-icon" autoPlay loop muted playsInline/>
             </Link>
             <div className='menu-icon' onClick={handleClick}>
                 <i className={click ? 'fas fa-times' : 'fas fa-bars'}/>
