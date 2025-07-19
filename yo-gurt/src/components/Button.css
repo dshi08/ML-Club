@@ -11,7 +11,7 @@
 }
 
 .btn--filled {
-    background-color: var(--primary);
+    background-color: lightcoral;
     color: #242424;
     border: 1px solid var(--primary-dark)
 }
@@ -30,12 +30,12 @@
 
 .btn--large {
     padding: 12px 26px;
-    font-size: 20px;
+    font-size: 30px;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 .btn--medium:hover, .btn--large:hover {
-    background: white;
+    background: whitesmoke;
     color: black;
     transition: 250ms;
 }

@@ -13,7 +13,7 @@ function NavBar() {
     const handleHoverStart = () => {
         if (videoRef.current) {
             videoRef.current.classList.add('show');
-            videoRef.current.play()
+            videoRef.current.play().catch(e => console.log("Video error:", e));
         }
     };
     
