@@ -1,0 +1,35 @@
+@keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+}
+
+.calendar-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 20px;
+    background: url("/public/images/calendar-background.webp" ) center center/cover;
+    min-height: 100vh;
+    opacity: 0;
+    animation: fadeIn 0.6s ease-in forwards;
+
+}
+
+.calendar-content {
+    width: 100%;
+    max-width: 1000px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
+    border-radius: 12px;
+    overflow: hidden;
+    background-color: white;
+}
+
+.calendar-content iframe {
+    width: 100%;
+    height: 700px;
+    border: none;
+  }
