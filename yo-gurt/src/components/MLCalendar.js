@@ -3,7 +3,7 @@ import './MLCalendar.css'
 import '../App.css'
 
 
-function Calendar() {
+function MLCalendar() {
   return (
     <div className='calendar-container'>
       <div className='calendar-content'>
@@ -21,4 +21,4 @@ function Calendar() {
   )
 }
 
-export default Calendar
+export default MLCalendar
