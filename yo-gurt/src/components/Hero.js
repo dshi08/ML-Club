@@ -10,6 +10,13 @@ function Hero() {
             <h1> EXPLORE THE FUTURE OF AI</h1>
             <p> Learn, build, and collaborate on real-world machine learning projects—no prior experience needed.</p>
         </div>
+        <div className='hero-imgs'>
+            <img src='/images/python-logo.png' alt='python-logo' className='python'/>
+            <img src='/images/pytorch-logo.png' alt='pytorch-logo' className='pytorch'/>
+            <img src='/images/gpt-logo.png' alt='gpt-logo' className='gpt'/>
+            <img src='/images/gemini-logo.png' alt='gemini-logo' className='gemini'/>
+            <img src='/images/deepseek-logo.png' alt='deepseek-logo' className='deepseek'/>
+        </div>
         <div className='hero-btns'>
             <Button className='btns' 
             buttonStyle='btn--filled'

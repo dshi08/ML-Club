@@ -47,7 +47,6 @@ function NavBar() {
             onClick={closeMobileMenu}
             onMouseEnter={handleHoverStart}
             onMouseLeave={handleHoverEnd}>
-                AHSMLC 
                 <div className="logo-media-wrapper">
                     <img 
                     src='/images/first-frame.png' 
@@ -64,6 +63,7 @@ function NavBar() {
                     ref={videoRef}
                     />
                 </div>
+                AHSMLC 
             </Link>
             <div className='menu-icon' onClick={handleClick}>
                 <i className={click ? 'fas fa-times' : 'fas fa-bars'}/>
@@ -85,8 +85,8 @@ function NavBar() {
                     </Link>
                 </li>
                 <li className='nav-item'>
-                    <Link to='/join' className='nav-links-mobile' onClick={(closeMobileMenu)}>
-                        Join!
+                    <Link to='https://docs.google.com/forms/d/e/1FAIpQLSeXoTRbhvNvsAfxWUihoT3GBH-37amXsnO7RAGjDSaVUAZFLw/viewform?usp=header' className='nav-links-mobile' onClick={(closeMobileMenu)}>
+                        Join
                     </Link>
                 </li>
             </ul>
@@ -95,7 +95,7 @@ function NavBar() {
              buttonStyle='btn--empty'
              buttonSize='btn--large'
              to='https://docs.google.com/forms/d/e/1FAIpQLSeXoTRbhvNvsAfxWUihoT3GBH-37amXsnO7RAGjDSaVUAZFLw/viewform?usp=header'>
-                Join!
+                Join
             </Button>
             }
             </div>

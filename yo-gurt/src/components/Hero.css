@@ -39,6 +39,38 @@
     padding: 20px;
 }
 
+.hero-imgs {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 15px;
+  margin-top: 10px;
+  transition: transform 0.3s ease;
+}
+
+.hero-imgs img:hover {
+    transform: scale(1.1);
+}
+
+.python {
+    height: 50px;
+}
+.gpt {
+    height: 43px;
+    margin-top: 5px;
+}
+.deepseek {
+    height: 53px;
+    margin-top: -3px;
+}
+.gemini {
+    height: 45px;
+    margin-top: -3px;
+}
+.pytorch {
+    height: 50px;
+}
+  
 .hero-btns {
     margin-top: 32px;
 }
@@ -56,18 +88,38 @@
 
 @media screen and (max-width: 768px) {
     .hero-content > h1 {
-        font-size: 70px;
+        font-size: 73px;
         margin-top: -100px;
     }
     .hero-content > p {
-        font-size: 20px;
+        font-size: 23px;
     }
     .btn-mobile {
         display: block;
         text-decoration: none;
     }
 
+    .python {
+        height: 40px;
+    }
+    .gpt {
+        height: 33px;
+        margin-top: 5px;
+    }
+    .deepseek {
+        height: 43px;
+        margin-top: -3px;
+    }
+    .gemini {
+        height: 35px;
+        margin-top: -3px;
+    }
+    .pytorch {
+        height: 40px;
+    }
+    
     .btn {
+        font-size: 25px;
         width: 100%;
     }
 }
