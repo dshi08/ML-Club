@@ -85,9 +85,13 @@ function NavBar() {
                     </Link>
                 </li>
                 <li className='nav-item'>
-                    <Link to='https://docs.google.com/forms/d/e/1FAIpQLSeXoTRbhvNvsAfxWUihoT3GBH-37amXsnO7RAGjDSaVUAZFLw/viewform?usp=header' className='nav-links-mobile' onClick={(closeMobileMenu)}>
-                        Join
-                    </Link>
+                    <a href='https://docs.google.com/forms/d/e/1FAIpQLSeXoTRbhvNvsAfxWUihoT3GBH-37amXsnO7RAGjDSaVUAZFLw/viewform?usp=header' 
+                    className='nav-links-mobile' 
+                    target='_blank'
+                    rel='noopener noreferrer'
+                    onClick={(closeMobileMenu)}>
+                        Join!
+                    </a>
                 </li>
             </ul>
             {button && 
