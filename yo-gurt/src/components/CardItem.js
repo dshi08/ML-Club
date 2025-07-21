@@ -1,20 +1,25 @@
-import React from 'react'
+import {useEffect} from 'react'
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 
 function CardItem(props) {
+    useEffect(() => {
+        AOS.init({duration: 800});
+    }, []);
     return (
-        <li className='cards-item'>
+        <li className='cards__item' data-aos="fade-up">
             <a
             href={props.path}
-            className='cards-item-link'
+            className='cards__item__link'
             target="_blank"
             rel="noopener noreferrer"
             >
-                <figure className='cards-item-pic-wrap' data-category={props.label}>
-                    <img src={props.src} alt="alt" className='cards-item-img'/>
+                <figure className='cards__item__pic-wrap' data-category={props.label}>
+                    <img src={props.src} alt="alt" className='cards__item__img'/>
                 </figure>
-                <div className='cards-item-info'>
-                    <h5 className='cards-item-text'>
+                <div className='cards__item__info'>
+                    <h5 className='cards__item__text'>
                         {props.text}
                     </h5>
                 </div>

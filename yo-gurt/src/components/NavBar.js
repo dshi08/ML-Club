@@ -75,13 +75,13 @@ function NavBar() {
                     </Link>
                 </li>
                 <li className='nav-item'>
-                    <Link to='/resources' className='nav-links' onClick={(closeMobileMenu)}>
-                        Resources
+                    <Link to='/calendar' className='nav-links' onClick={(closeMobileMenu)}>
+                        Calendar
                     </Link>
                 </li>
                 <li className='nav-item'>
-                    <Link to='/calendar' className='nav-links' onClick={(closeMobileMenu)}>
-                        Calendar
+                    <Link to='/resources' className='nav-links' onClick={(closeMobileMenu)}>
+                        Resources
                     </Link>
                 </li>
                 <li className='nav-item'>
