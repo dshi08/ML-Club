@@ -1,12 +1,21 @@
 .cards {
     padding: 4rem;
-    background-color: antiquewhite;
+    background: url("/public/images/project-background.avif" ) center center/cover;
 }
 
 h1 {
+    color: white;
     text-align: center;
+    font-size: 50px;
 }
 
+.cards__button-wrapper {
+    justify-content: center;
+    display: flex;
+    padding-top: 20px;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+}
 .cards__container {
     display: flex;
     flex-flow: column;
@@ -39,9 +48,9 @@ h1 {
     display: flex;
     flex-flow: column;
     width: 100%;
-    box-shadow: 0 6px 20px rgba(56, 125, 255, 0.17);
-    -webkit-filter: drop-shadow(0 6px 20px rgba(56, 125, 255, 0.017));
-    filter: drop-shadow(0 6px 20px rgba(56, 125, 255, 0.017));
+    box-shadow: 0 6px 20px rgba(255, 255, 255, 0.17);
+    -webkit-filter: drop-shadow(0 6px 20px rgba(255, 255, 255, 0.017));
+    filter: drop-shadow(0 6px 20px rgba(255, 255, 255, 0.017));
     border-radius: 10px;
     overflow: hidden;
     text-decoration: none;
@@ -97,8 +106,9 @@ h1 {
 }
 
 .cards__item__text {
-    color: #252e48;
-    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+    color: whitesmoke;
+    font-size: 20px;
     line-height: 24px;
 }
 
