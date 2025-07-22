@@ -20,56 +20,25 @@ function ProjectCards() {
             <div className='cards__wrapper'>
                 <ul className='cards__items'>
                     <CardItem
-                    src='/images/ai-gen-hero.webp' //tester
-                    label='test'
-                    text='Tester card'
-                    path='https://shipwrecked.hackclub.com/bay'
-                    />
-                    <CardItem
-                    src='/images/ai-gen-hero.webp' //tester
-                    label='test'
-                    text='Tester card'
-                    path='https://shipwrecked.hackclub.com/bay'
-                    />
-                    <CardItem
-                    src='/images/ai-gen-hero.webp' //tester
-                    label='test'
-                    text='Tester card'
-                    path='https://shipwrecked.hackclub.com/bay'
+                    src='/images/plant-disease.png' 
+                    label='Computer Vision'
+                    text='Detect Plant Diseases With 99.7% Accuracy'
+                    path='https://colab.research.google.com/drive/1Ph_PLu97_bUQMI5iP40OD8Sk6Tp-pEvs?usp=sharing'
                     />
                 </ul>
                 <ul className='cards__items'>
                     <CardItem
-                    src='/images/ai-gen-hero.webp' //tester
-                    label='test'
-                    text='Tester card'
-                    path='https://shipwrecked.hackclub.com/bay'
+                    src='/images/shakespeare.png' 
+                    label='NLP / Skeleton Project'
+                    text='Generate Shakespearean Text'
+                    path='https://colab.research.google.com/drive/1tG0HFmAvxklnu-lxXLe_zEWPeh--IfDm?usp=sharing'
                     />
                     <CardItem
-                    src='/images/ai-gen-hero.webp' //tester
-                    label='test'
-                    text='Tester card'
-                    path='https://shipwrecked.hackclub.com/bay'
+                    src='/images/mdcs.png'
+                    label='Computer Vision'
+                    text='MNIST digit-classification model (no libraries)'
+                    path='https://github.com/dshi08/Digit-Classification/blob/main/digit-classification/digits.ipynb'
                     />
-                    <CardItem
-                    src='/images/ai-gen-hero.webp' //tester
-                    label='test'
-                    text='Tester card'
-                    path='https://shipwrecked.hackclub.com/bay'
-                    />
-                    <CardItem
-                    src='/images/ai-gen-hero.webp' //tester
-                    label='test'
-                    text='Tester card'
-                    path='https://shipwrecked.hackclub.com/bay'
-                    />
-                    <CardItem
-                    src='/images/ai-gen-hero.webp' //tester
-                    label='test'
-                    text='Tester card that does this that and this and stufasd sdadsdas dsadsadsdasf. Tester card that does this that and this and stufasd sdadsdas dsadsadsdasf.'
-                    path='https://shipwrecked.hackclub.com/bay'
-                    />
-                    
                 </ul>
             </div>
         </div>
