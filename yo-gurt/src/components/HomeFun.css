@@ -1,12 +1,20 @@
-.cards {
+.home-fun-cards {
     padding: 4rem;
-    background: url("/public/images/project-background.avif" ) center center/cover;
+    background: url("/public/images/hero-fun.jpg") center center/cover;
 }
 
 h1 {
     color: white;
     text-align: center;
-    font-size: 50px;
+    font-size: 51px;
+}
+
+h2 {
+    color: white;
+    font-weight: 600;
+    margin-top: 20px;
+    text-align: center;
+    font-size: 45px;
 }
 
 .cards__button-wrapper {
@@ -108,7 +116,7 @@ h1 {
 .cards__item__text {
     font-family: 'Times New Roman', Times, serif;
     color: whitesmoke;
-    font-size: 18px;
+    font-size: 20px;
     line-height: 24px;
 }
 

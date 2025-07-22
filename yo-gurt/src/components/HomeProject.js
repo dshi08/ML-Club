@@ -19,7 +19,7 @@ function HomeProject() {
                     />
                     <CardItem
                     src='/images/plant-disease.png' 
-                    label='Homemade Project'
+                    label='Finished Project'
                     text='Using a fine-tuned ResNet18, a convolutional neural network (CNN), the model was able to detect plant diseases with 99.7% accuracy'
                     path='https://colab.research.google.com/drive/1Ph_PLu97_bUQMI5iP40OD8Sk6Tp-pEvs?usp=sharing'
                     />
