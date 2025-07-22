@@ -1,9 +1,9 @@
 import React from 'react'
-
+import ResourceCards from '../ResourceCards'
 function Resources() {
   return (
     <div>
-      regurt
+      <ResourceCards/>
     </div>
   )
 }
