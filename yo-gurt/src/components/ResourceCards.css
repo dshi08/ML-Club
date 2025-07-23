@@ -1,6 +1,6 @@
 .resource-cards {
     padding: 4rem;
-    background: url("/public/images/resource-background.jpg" ) center center/cover;
+    background: url("/public/images/resources.jpg" ) center center/cover;
 }
 
 h1 {
@@ -106,7 +106,6 @@ h1 {
 }
 
 .cards__item__text {
-    font-family: 'Times New Roman', Times, serif;
     color: whitesmoke;
     font-size: 18px;
     line-height: 24px;
