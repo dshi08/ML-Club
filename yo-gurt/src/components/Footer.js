@@ -11,7 +11,7 @@ function Footer() {
               <p>David Shi(President): <a href="mailto:dshi2026@student.andoverma.us">dshi2026@student.andoverma.us</a></p>
               <p>Will Lau(Vice President): <a href="mailto:wlau2026@student.andoverma.us">wlau2026@student.andoverma.us</a></p>
               <p>Dylan Ho(Socials Manager): <a href="mailto:dho2026@student.andoverma.us">dho2026@student.andoverma.us</a></p>
-              <p>Dr. Bezaire(club Advisor): <a href="mailto:marianne.bezaire@andoverma.us">marianne.bezaire@andoverma.us</a></p>
+              <p>Dr. Bezaire(Club Advisor): <a href="mailto:marianne.bezaire@andoverma.us">marianne.bezaire@andoverma.us</a></p>
             </div>
           </div>
         </div>

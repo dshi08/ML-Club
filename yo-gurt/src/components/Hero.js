@@ -7,7 +7,7 @@ function Hero() {
   return (
     <div className='hero-container'>
         <div className='hero-content'>
-            <h1> AHS ML CLUB</h1>
+            <h1> AHS MACHINE LEARNING</h1>
             <p> Learn, build, and collaborate on real-world machine learning projects—no prior experience needed.</p>
         </div>
         <div className='hero-imgs'>
