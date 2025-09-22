@@ -7,8 +7,8 @@ function Hero() {
   return (
     <div className='hero-container'>
         <div className='hero-content'>
-            <h1> AHS MACHINE LEARNING</h1>
-            <p> Learn, build, and collaborate on real-world machine learning projects—no prior experience needed.</p>
+            <h1> AHS AI COMMUNITY</h1>
+            <p>Building community solutions with the power of AI.</p>
         </div>
         <div className='hero-imgs'>
             <img src='/images/python-logo.png' alt='python-logo' className='python'/>
