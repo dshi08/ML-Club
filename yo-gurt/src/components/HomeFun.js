@@ -22,13 +22,13 @@ function HomeFun() {
                     <CardItem
                     src='/images/will.png' 
                     label='Vice President'
-                    text='SEEKING VP'
+                    text="I'm Will, a senior at AHS. I was new to AI last year but managed to pick it up. I have high hopes and hope to help out the local community."
                     path='https://www.youtube.com/watch?v=xPaFQ8ogvto'
                     />
                     <CardItem
                     src='/images/dylan.jpeg' 
                     label='Social Media Manager'
-                    text='SEEKING SOCIAL MEDIA MANAGER'
+                    text="I'm Dylan, a senior at AHS. I mostly do graphic design in my free time but found the designs AI created interesting. It inspired me to join the club, and now I'm here to document club accomplishments and progress."
                     path='https://www.youtube.com/watch?v=xPaFQ8ogvto'
                     />
                 </ul>
